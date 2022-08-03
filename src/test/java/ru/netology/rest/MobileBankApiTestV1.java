@@ -25,5 +25,7 @@ class MobileBankApiTestV1 {
                 .body("[1].currency", equalTo("USD"))
                 .body("[2].currency", equalTo("RUB"))
         ;
+        System.out.println("Test done");
+
     }
 }
